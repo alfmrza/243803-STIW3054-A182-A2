@@ -18,7 +18,7 @@ Those information are spreaded into 5 threads. Thread 1 is to calculate how many
 ![ClassDiagram](https://user-images.githubusercontent.com/47703557/55550177-314e1100-570a-11e9-9e2a-6f3abbf7efc2.png)
 
 # Youtube: 
-
+https://youtu.be/B4-zuFaxAhA
 # Reference(s)
 1. PDFBox – How to read PDF file in Java – Mkyong.com. (2019). Retrieved from https://www.mkyong.com/java/pdfbox-how-to-read-pdf-file-in-java/
 2. Java Regular Expressions. (2019). Retrieved from https://www.tutorialspoint.com/java/java_regular_expressions.htm
