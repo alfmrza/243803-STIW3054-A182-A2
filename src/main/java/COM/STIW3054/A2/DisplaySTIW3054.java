@@ -12,13 +12,13 @@ public class DisplaySTIW3054 implements Runnable {
 	}
 
 	public void run() {
-		String Datesubs = "";
-		String regexDate = "(\\d{1,3}.  STIW3054 .* \\d{1,2}/\\d{1,2}/\\d{4} \\d{2}:\\d{2})";
-		Matcher m = Pattern.compile(regexDate).matcher(pdfFileInText);
+		String subString = "";
+		String regex = "(\\d{1,3}.  STIW3054 .* \\d{1,2}/\\d{1,2}/\\d{4} \\d{2}:\\d{2})";
+		Matcher m = Pattern.compile(regex).matcher(pdfFileInText);
 		while (m.find()) {
-			Datesubs += m.group();
+			subString += m.group();
 		}
-		System.out.println(Thread.currentThread().getName() + Datesubs);
+		System.out.println(Thread.currentThread().getName() + subString);
 	}
 
 }
